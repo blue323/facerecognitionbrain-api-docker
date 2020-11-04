@@ -32,7 +32,7 @@ const getAuthTokenId = (req, res) => {
         if(err || !reply) {
             return res.status(400).json('Unauthorized')
         }
-        return res.status({id : reply})
+        return res.json({id : reply})
     })
 }
 
