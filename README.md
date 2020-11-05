@@ -1,4 +1,4 @@
-Final project for Udemy course - using Docker
+Final project for Udemy course - using Docker + Sessions + JWT
 
 1. Clone this repo
 2. run `npm install`
